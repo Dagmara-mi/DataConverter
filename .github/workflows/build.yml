@@ -30,7 +30,7 @@ jobs:
       run: pyinstaller --onefile project.py
 
     - name: Upload EXE
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: exe-file
         path: dist/project.exe
